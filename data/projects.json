@@ -1,0 +1,26 @@
+[
+  {
+    "name": "FlUnit",
+    "icon": "https://github.com/sdcondon/FlUnit/raw/main/src/FlUnitIcon.png",
+    "description": "A test framework in which tests are defined with a fluent builder.",
+    "docs": "https://github.com/sdcondon/FlUnit/"
+  },
+  {
+    "name": "SCFirstOrderLogic",
+    "icon": "https://sdcondon.net/SCFirstOrderLogic/SCFirstOrderLogic-128.png",
+    "description": "Simple but extensible and fully documented first-order logic implementation.",
+    "docs": "https://sdcondon.net/SCFirstOrderLogic/"
+  },
+  {
+    "name": "SCClassicalPlanning",
+    "icon": "https://github.com/sdcondon/SCClassicalPlanning/raw/main/src/SCClassicalPlanning.png",
+    "description": "Simple classical planning implementations, somewhat influenced by \"Artificial Intelligence: A Modern Approach\" (Russell & Norvig).",
+    "docs": "https://github.com/sdcondon/SCClassicalPlanning"
+  },
+  {
+    "name": "SCGraphTheory",
+    "icon": "https://github.com/sdcondon/SCGraphTheory.Abstractions/raw/main/src/Abstractions/SCGraphTheoryIcon.png",
+    "description": "Simple but extensible and fully documented first-order logic implementation.",
+    "docs": "https://github.com/sdcondon/SCGraphTheory.Abstractions"
+  }
+]
