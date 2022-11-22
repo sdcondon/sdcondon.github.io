@@ -18,18 +18,55 @@
 
 <body class="d-flex w-100 h-100 text-center text-white bg-dark">
     <div id="app" class="w-100 h-100">
-        <div id="loading-placeholder" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center">
-            Site loading...
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="mb-auto">
+                <div>
+                    <nav class="nav navbar-expand nav-masthead justify-content-center float-md-end">
+                        <ul class="navbar-nav me-auto mb-2">
+                            <li class="nav-item"><NavLink class="nav-link" href="" Match="NavLinkMatch.All">Home</NavLink></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                                    <li><a class="dropdown-item" href="FlUnit">FlUnit</a></li>
+                                    <li><a class="dropdown-item" href="SCFirstOrderLogic">SCFirstOrderLogic</a></li>
+                                    <li><a class="dropdown-item" href="SCClassicalPlanning">SCClassicalPlanning</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <main class="px-3 d-flex align-items-center">
+                <div class="container">
+                    <img src="profile_grey.jfif" style="border-radius: 50%; width:200px; height:200px;" />
+
+                    <h1>Simon Condon</h1>
+
+                    <p>
+                        <a href="https://github.com/sdcondon"><img src="GitHub-Mark-Light-32px.png" /></a>
+                        &nbsp;
+                        <a href="https://www.nuget.org/profiles/sdcondon"><img src="NuGet_project_logo.svg" style="width:32px; height:32px;" /></a>
+                        &nbsp;
+                        <a href="https://www.linkedin.com/in/simon-condon-a117b1105/"><img src="LI-In-Bug.png" style="width:38px; height:32px;" /></a>
+                    </p>
+
+                    <p class="lead">
+                        Hi there! I'm a software developer from London in the UK, and this is my personal website.
+                        For now at least, it is just used to host documentation for some of the packages that I have created.
+                    </p>
+                </div>
+            </main>
+
+            <footer class="mt-auto text-white-50">
+                <p class="text-muted">
+                    Powered by <a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor" class="text-light">Blazor</a> and <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>.
+                    Hosted by <a href="https://pages.github.com/" class="text-white">GitHub Pages</a>.
+                </p>
+            </footer>
         </div>
     </div>
 
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>
-
-    <script src="_framework/blazor.webassembly.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
