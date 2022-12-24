@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>sdcondon</title>
+    <base href="/" />
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="Site.styles.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+
+    <link href="profile_grey_64x.png" rel="icon" type="image/png" />
+</head>
+
+<body class="d-flex w-100 h-100 text-center text-white bg-dark">
+    <div id="app" class="w-100 h-100">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="mb-auto">
+                <div>
+                    <nav class="nav navbar-expand nav-masthead justify-content-center float-md-end">
+                        <ul class="navbar-nav me-auto mb-2">
+                            <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                                    <li><a class="dropdown-item" href="FlUnit">FlUnit</a></li>
+                                    <li><a class="dropdown-item" href="SCFirstOrderLogic">SCFirstOrderLogic</a></li>
+                                    <li><a class="dropdown-item" href="SCClassicalPlanning">SCClassicalPlanning</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><NavLink class="nav-link active" href="resources" Match="NavLinkMatch.All">Resources</NavLink></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <main class="px-3 d-flex align-items-center">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card bg-dark border-0">
+                                <div class="card-img-top">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                                        <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
+                                        <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
+                                    </svg>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a class="card-link" href="docs/SimonCondonCV_Public.pdf">CV</a></h5>
+                                    <p class="card-text">Curriculum vitae (PDF download) with redacted contact details.</p>
+                                    <!--<a href="@oddIndexProject.Docs" class="btn btn-primary">Download</a>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card bg-dark border-0">
+                                <div class="card-img-top">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                                        <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
+                                        <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
+                                    </svg>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a class="card-link" href="https://1drv.ms/u/s!AiAjniVOR9wTiS8aX_FFVlvjsTrM?e=cA4LHg">Dev Notes</a></h5>
+                                    <p class="card-text">OneNote document (hosted on OneDrive) containing summaries of dev concepts that I consider of particular note, with annotations.</p>
+                                    <!--<a href="@evenIndexProject.Docs" class="btn btn-primary">Link</a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+
+            <footer class="mt-auto text-white-50">
+                <p class="text-muted small">
+                    Powered by <a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor" class="text-light">Blazor</a> and <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>.
+                    Hosted by <a href="https://pages.github.com/" class="text-white">GitHub Pages</a>.
+                </p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
